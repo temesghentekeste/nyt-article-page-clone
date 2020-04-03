@@ -1,6 +1,8 @@
 :root {
   --primary-color: #022036;
+  background-color: brown;
 }
+
 
 * {
   margin: 0;
@@ -19,6 +21,10 @@
 
 .space-between {
   justify-content: space-between;
+}
+
+nav {
+  background-color: darkblue;
 }
 
 .middle {
