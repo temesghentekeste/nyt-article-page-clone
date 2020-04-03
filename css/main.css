@@ -1,0 +1,31 @@
+:root {
+  --primary-color: #022036;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.flex,
+.flex-v {
+  display: flex;
+}
+
+.flex-v {
+  flex-direction: column;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+.middle {
+  height: 20px;
+}
+
+.logo {
+  width: 100px;
+  display: inline-block;
+}
