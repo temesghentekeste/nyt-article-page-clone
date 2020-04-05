@@ -1,16 +1,15 @@
 :root {
-  --primary-color: #022036;
-  background-color: brown;
+  --primary-color: #6288a5;
+  --white-color: #fff;
+  --black-color: #000;
+  --background-color: brown;
 }
 
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+body {
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
 }
 
-.flex,
+.flex-h,
 .flex-v {
   display: flex;
 }
@@ -23,21 +22,54 @@
   justify-content: space-between;
 }
 
-nav {
-  background-color: darkblue;
+.align-center {
+  align-items: center;
 }
 
-.middle {
-  height: 20px;
+a {
+  text-decoration: none;
+}
+
+.text-center {
+  text-align: center;
+}
+
+nav {
+  background-color: var(--white-color);
+  padding: 0.25rem 0.94rem 0.125rem;
+  height: 2.625rem;
+}
+
+nav .left a {
+  font-size: 0.9rem;
+  color: var(--black-color);
+  font-weight: 700;
+}
+
+nav .left i {
+  padding: 0.5rem 0.5625rem 0.5625rem 0.5625rem;
+  margin: 0 0.5rem 0 0;
 }
 
 .logo {
-  width: 100px;
-  display: inline-block;
+  width: 195px;
+  height: 26px;
+}
+
+.btn {
+  padding: 0.5rem 0.75rem 0.75rem 0.5rem;
+  margin-right: 0.4375rem;
+  border-radius: 3px;
+  background: var(--primary-color);
+  border: 1px solid #326891;
+  color: var(--white-color);
+  border: none;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: 700;
 }
 
 .video {
   width: 560px;
   height: 315px;
 }
-
