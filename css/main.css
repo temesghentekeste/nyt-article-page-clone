@@ -35,3 +35,9 @@ nav {
   width: 100px;
   display: inline-block;
 }
+
+.video {
+  width: 560px;
+  height: 315px;
+}
+
