@@ -28,8 +28,14 @@ body {
   align-items: center;
 }
 
+
+
 a {
   text-decoration: none;
+}
+
+a:hover {
+  cursor: pointer;
 }
 
 .text-center {
@@ -120,6 +126,15 @@ nav .left i {
   padding-right: 25%;
 }
 
+.article-header{
+  margin-bottom: 1.6rem;
+}
+
+.article-author {
+  color: var(--darkest-gray);
+  font-weight: 600;
+}
+
 .article-author a {
   color: var(--darkest-gray);
 }
@@ -127,6 +142,12 @@ nav .left i {
 .article-social {
   height: 42px;
   align-items: baseline;
+}
+
+.article-social .date {
+  cursor: pointer;
+  color: var(--darkest-gray);
+  font-size: 0.8125rem;
 }
 
 .social-links i {
@@ -151,9 +172,10 @@ nav .left i {
 
 .fa-comment-o span {
   position: absolute;
-  font-size: 0.5rem;
-  left: 16px;
+  font-size: 0.7rem;
+  left: 14px;
   top: 16px;
+  color: #999;
 }
 
 .video {
