@@ -1,5 +1,6 @@
 :root {
   --primary-color: #6288a5;
+  --secondary-color: #326891;
   --white-color: #fff;
   --black-color: #000;
   --dark-gray: #666;
@@ -33,6 +34,7 @@ p {
   color: var(--darkest-gray);
   line-height: 1.85rem;
   margin-bottom: 0.94rem;
+  font-weight: 400;
 }
 
 a {
@@ -45,6 +47,10 @@ a:hover {
 
 .text-center {
   text-align: center;
+}
+
+.m-b-3 {
+  margin-bottom: 3rem;
 }
 
 nav {
@@ -78,7 +84,7 @@ nav .left i {
   margin-right: 0.4375rem;
   border-radius: 3px;
   background: var(--primary-color);
-  border: 1px solid #326891;
+  border: 1px solid var(--secondary-color);
   color: var(--white-color);
   border: none;
   cursor: pointer;
@@ -91,9 +97,6 @@ nav .left i {
   margin: 0 auto;
 }
 
-.m-b-3 {
-  margin-bottom: 3rem;
-}
 .article-title {
   height: 96px;
   width: 100%;
@@ -108,7 +111,7 @@ nav .left i {
   font-style: italic;
   font-weight: 700;
   color: #121212;
-  font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
+  font-family: nyt-cheltenham, georgia, 'times new roman', times, serif;
 }
 
 .article-image {
@@ -186,7 +189,7 @@ nav .left i {
 .second-part {
   display: grid;
   grid-template-columns: 1fr 600px 1fr;
-  grid-template-areas: ". full-container editors-pick";
+  grid-template-areas: '. full-container editors-pick';
 }
 
 .full-container {
@@ -233,10 +236,10 @@ aside img {
   grid-template-columns: 1fr 2fr 1fr;
   grid-template-rows: repeat(4, 40px);
   grid-template-areas:
-    ". . ."
-    ". subscribe-remider-text ."
-    ". subscribe-remider-link ."
-    ". . .";
+    '. . .'
+    '. subscribe-remider-text .'
+    '. subscribe-remider-link .'
+    '. . .';
   font-weight: 700;
 }
 
@@ -251,7 +254,7 @@ aside img {
   width: 100px;
   background: #ddd;
   border-right: 1px white;
-  content: "";
+  content: '';
   margin: 0 auto;
   margin-bottom: 1rem;
 }
@@ -267,7 +270,7 @@ aside img {
   width: 100px;
   background: #ddd;
   border-right: 1px white;
-  content: "";
+  content: '';
   margin: 0 auto;
   margin-top: 1rem;
 }
@@ -278,7 +281,7 @@ aside img {
 
 .schema {
   width: 945px;
-  margin: 0 auto;
+  margin: 0 auto 3rem;
 }
 
 .schema-body {
@@ -286,15 +289,15 @@ aside img {
   grid-gap: 0 14px;
   height: 576px;
   width: 945px;
-  background: url("https://static01.nyt.com/newsgraphics/2014/03/18/theory-of-inflation/1ebaa1b972edda0f407fbaa0e010f6b50fb6792e/inflation-945.png")
+  background: url('https://static01.nyt.com/newsgraphics/2014/03/18/theory-of-inflation/1ebaa1b972edda0f407fbaa0e010f6b50fb6792e/inflation-945.png')
     no-repeat center center/cover;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1.1fr 1fr 1.1fr;
   grid-template-areas:
-    ". . . ."
-    "div1 div2 div3 div4 "
-    ". . . ."
-    "div5 div6 div7 div8 ";
+    '. . . .'
+    'div1 div2 div3 div4 '
+    '. . . .'
+    'div5 div6 div7 div8 ';
 }
 
 .schema h2 {
@@ -358,7 +361,7 @@ aside img {
 
 .schema-footer:before {
   width: 60px;
-  content: " ";
+  content: ' ';
   display: block;
   height: 1px;
   margin: 13px 13px 13px 0;
@@ -370,6 +373,17 @@ aside img {
   line-height: 1.125rem;
   font-weight: 500;
   font-family: nyt-franklin, arial, helvetica, sans-serif;
+}
+
+.fourth-part a {
+  color: var(--secondary-color);
+  text-decoration: underline;
+  font-family: nyt-imperial, georgia, 'times new roman', times, serif;
+  font-size: 1.25rem;
+}
+
+.fourth-part a:hover {
+  text-decoration: none;
 }
 
 .video {
