@@ -228,6 +228,54 @@ aside img {
   width: 100%;
 }
 
+.subscribe-remider {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-rows: repeat(4, 40px);
+  grid-template-areas:
+    '. . .'
+    '. subscribe-remider-text .'
+    '. subscribe-remider-link .'
+    '. . .';
+  font-weight: 700;
+}
+
+.subscribe-remider-text {
+  grid-area: subscribe-remider-text;
+  color: var(--darkest-gray);
+}
+
+.subscribe-remider-text:before {
+  height: 1px;
+  display: block;
+  width: 100px;
+  background: #ddd;
+  border-right: 1px white;
+  content: '';
+  margin:0 auto;
+  margin-bottom: 1rem;
+}
+
+.subscribe-remider-link {
+  grid-area: subscribe-remider-link;
+  color: #326689;
+}
+
+.subscribe-remider-link:after {
+  height: 1px;
+  display: block;
+  width: 100px;
+  background: #ddd;
+  border-right: 1px white;
+  content: '';
+  margin:0 auto;
+  margin-top: 1rem;
+}
+
+.subscribe-remider-link:hover {
+  cursor: pointer;
+}
+
 .video {
   width: 560px;
   height: 315px;
