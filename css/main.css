@@ -38,6 +38,10 @@ nav {
   background-color: var(--white-color);
   padding: 0.25rem 0.94rem 0.125rem;
   height: 2.625rem;
+  position: fixed;
+  top: 0;
+  z-index: 999;
+  width: 100%;
 }
 
 nav .left a {
@@ -73,7 +77,7 @@ nav .left i {
   height: 96px;
   width: 100%;
   margin-bottom: 0.625rem;
-  margin-top: 1.875rem;
+  margin-top: 3.875rem;
 }
 
 .article-title h1 {
