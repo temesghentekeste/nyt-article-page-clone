@@ -97,7 +97,7 @@ nav .left i {
   font-style: italic;
   font-weight: 700;
   color: #121212;
-  font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
+  font-family: nyt-cheltenham, georgia, 'times new roman', times, serif;
 }
 
 .article-image {
@@ -122,6 +122,11 @@ nav .left i {
 
 .article-author a {
   color: var(--darkest-gray);
+}
+
+.article-social {
+  height: 42px;
+  align-items: baseline;
 }
 
 .social-links i {
