@@ -2,7 +2,8 @@
   --primary-color: #6288a5;
   --white-color: #fff;
   --black-color: #000;
-  --background-color: brown;
+  --dark-gray: #666;
+  --light-gray: #888;
 }
 
 body {
@@ -101,6 +102,13 @@ nav .left i {
   width: 100%;
   height: 675.55px;
   align-self: flex-start;
+}
+
+.article-image figcaption {
+  margin-top: 0.4rem;
+  font-size: 0.9375rem;
+  color: var(--dark-gray);
+  padding-right: 25%;
 }
 
 .video {
