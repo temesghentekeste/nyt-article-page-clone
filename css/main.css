@@ -57,6 +57,14 @@ a:hover {
   margin-top: 3rem;
 }
 
+.caption {
+  display: block;
+  margin-top: 0.8rem;
+  font-size: 0.8rem;
+  color: var(--light-gray);
+  font-weight: 400;
+}
+
 nav {
   background-color: var(--white-color);
   padding: 0.25rem 0.94rem 0.125rem;
@@ -403,23 +411,15 @@ aside img {
   height: 100%;
 }
 
-.video span {
-  display: block;
-  margin-top: 0.8rem;
-  font-size: 0.8rem;
-  color: var(--light-gray);
-  font-weight: 400;
-}
-
 .fourth-part-image {
-  width:720px;
+  width: 720px;
   height: 480px;
-  margin:0 auto;
-  border:1px solid black;
+  margin: 0 auto;
+  margin-bottom: 5rem;
+  border: 1px solid black;
 }
 
-.fourth-part-image img{
-  width:100%;
+.fourth-part-image img {
+  width: 100%;
   height: 100%;
-  
 }
