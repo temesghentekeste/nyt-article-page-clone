@@ -108,7 +108,7 @@ nav .left i {
   font-style: italic;
   font-weight: 700;
   color: #121212;
-  font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
+  font-family: nyt-cheltenham, georgia, 'times new roman', times, serif;
 }
 
 .article-image {
@@ -186,7 +186,7 @@ nav .left i {
 .second-part {
   display: grid;
   grid-template-columns: 1fr 600px 1fr;
-  grid-template-areas: ". full-container editors-pick";
+  grid-template-areas: '. full-container editors-pick';
 }
 
 .full-container {
@@ -195,8 +195,6 @@ nav .left i {
 }
 
 .editors-pick {
-  font-size: 0.875rem;
-  line-height: 1.0625rem;
   align-content: center;
   grid-area: editors-pick;
   overflow: hidden;
@@ -204,17 +202,25 @@ nav .left i {
   width: 410px;
   margin-left: 100px;
   grid-auto-flow: row;
-  grid-template-columns: 75px 5fr;
+  grid-template-columns: 75px 125px;
   grid-template-rows: 30px 85px 85px 85px;
   grid-gap: 10px 4px;
 }
 
 .editors-pick p {
-  color: red;
+  font-size: 0.875rem;
+  line-height: 1.0625rem;
 }
 
 .title-editors-pick {
   grid-column: 1 / -1;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  font-weight: 700;
+  color: var(--black-color);
+  font-size: 0.875rem;
+  line-height: 0.875rem;
+  border-bottom: 1px solid rgb(226, 226, 226);
+  padding-bottom: 1.5rem;
 }
 
 aside img {
