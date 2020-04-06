@@ -28,7 +28,12 @@ body {
   align-items: center;
 }
 
-
+p {
+  font-size: 1.25rem;
+  color: var(--darkest-gray);
+  line-height: 1.85rem;
+  margin-bottom: 0.94rem;
+}
 
 a {
   text-decoration: none;
@@ -126,7 +131,7 @@ nav .left i {
   padding-right: 25%;
 }
 
-.article-header{
+.article-header {
   margin-bottom: 1.6rem;
 }
 
