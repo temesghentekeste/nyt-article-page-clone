@@ -53,6 +53,10 @@ a:hover {
   margin-bottom: 3rem;
 }
 
+.m-t-3 {
+  margin-top: 3rem;
+}
+
 nav {
   background-color: var(--white-color);
   padding: 0.25rem 0.94rem 0.125rem;
@@ -387,6 +391,22 @@ aside img {
 }
 
 .video {
-  width: 560px;
-  height: 315px;
+  width: 600px;
+  height: 319px;
+}
+
+.video {
+  margin-bottom: 5rem;
+}
+.video iframe {
+  width: 100%;
+  height: 100%;
+}
+
+.video span {
+  display: block;
+  margin-top: 0.8rem;
+  font-size: 0.8rem;
+  color: var(--light-gray);
+  font-weight: 400;
 }
