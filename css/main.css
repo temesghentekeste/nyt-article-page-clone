@@ -69,6 +69,40 @@ nav .left i {
   font-weight: 700;
 }
 
+.article-title {
+  height: 96px;
+  width: 100%;
+  margin-bottom: 0.625rem;
+  margin-top: 1.875rem;
+}
+
+.article-title h1 {
+  margin: 0px 23.4375rem 1rem 23.4375rem;
+  font-size: 2.2rem;
+  line-height: 3rem;
+  font-style: italic;
+  font-weight: 700;
+  color: #121212;
+  font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
+}
+
+.article-image {
+  margin: 43px auto;
+  max-width: 1200px;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 40px;
+  margin-inline-end: 40px;
+}
+
+.article-image img {
+  display: block;
+  margin: auto;
+  width: 945px;
+  height: 531.55px;
+}
+
 .video {
   width: 560px;
   height: 315px;
