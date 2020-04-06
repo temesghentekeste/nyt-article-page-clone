@@ -4,6 +4,7 @@
   --black-color: #000;
   --dark-gray: #666;
   --light-gray: #888;
+  --darkest-gray: #333;
 }
 
 body {
@@ -79,7 +80,7 @@ nav .left i {
   margin: 0 auto;
 }
 
-.m-b-3{
+.m-b-3 {
   margin-bottom: 3rem;
 }
 .article-title {
@@ -96,7 +97,7 @@ nav .left i {
   font-style: italic;
   font-weight: 700;
   color: #121212;
-  font-family: nyt-cheltenham, georgia, 'times new roman', times, serif;
+  font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
 }
 
 .article-image {
@@ -117,6 +118,37 @@ nav .left i {
   font-size: 0.9375rem;
   color: var(--dark-gray);
   padding-right: 25%;
+}
+
+.article-author a {
+  color: var(--darkest-gray);
+}
+
+.social-links i {
+  margin-right: 10px;
+  background-color: #ddd;
+  border-radius: 50%;
+  padding: 0.3rem 0.4rem;
+  font-size: 80%;
+}
+
+.social-links .fa-bookmark {
+  font-size: 200%;
+  background-color: transparent;
+  color: var(--dark-gray);
+}
+
+.social-links .fa-comment-o {
+  font-size: 200%;
+  background-color: transparent;
+  position: relative;
+}
+
+.fa-comment-o span {
+  position: absolute;
+  font-size: 0.5rem;
+  left: 16px;
+  top: 16px;
 }
 
 .video {
