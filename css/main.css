@@ -183,6 +183,10 @@ nav .left i {
   color: #999;
 }
 
+.editors-pick{
+  align-self: center;
+}
+
 .video {
   width: 560px;
   height: 315px;
