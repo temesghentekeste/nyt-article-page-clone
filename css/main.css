@@ -410,3 +410,16 @@ aside img {
   color: var(--light-gray);
   font-weight: 400;
 }
+
+.fourth-part-image {
+  width:720px;
+  height: 480px;
+  margin:0 auto;
+  border:1px solid black;
+}
+
+.fourth-part-image img{
+  width:100%;
+  height: 100%;
+  
+}
