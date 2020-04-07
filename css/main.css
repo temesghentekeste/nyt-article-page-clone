@@ -68,7 +68,7 @@ a:hover {
 }
 
 .subtitle {
-  font-family: nyt-imperial, georgia, 'times new roman', times, serif;
+  font-family: nyt-imperial, georgia, "times new roman", times, serif;
   font-weight: 700;
   color: var(--darkest-gray);
   font-size: 1.25rem;
@@ -152,7 +152,7 @@ nav .right {
   font-style: italic;
   font-weight: 700;
   color: #121212;
-  font-family: nyt-cheltenham, georgia, 'times new roman', times, serif;
+  font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
 }
 
 .article-image {
@@ -173,7 +173,7 @@ nav .right {
   font-size: 0.9375rem;
   color: var(--dark-gray);
   padding-right: 25%;
-  font-family: nyt-imperial, georgia, 'times new roman', times, serif;
+  font-family: nyt-imperial, georgia, "times new roman", times, serif;
 }
 
 .article-image figcaption span {
@@ -247,7 +247,7 @@ nav .right {
 .second-part {
   display: grid;
   grid-template-columns: 1fr 600px 1fr;
-  grid-template-areas: '. full-container editors-pick';
+  grid-template-areas: ". full-container editors-pick";
 }
 
 .full-container {
@@ -275,7 +275,7 @@ nav .right {
 }
 .editors-pick a {
   color: rgb(51, 51, 51);
-  font-family: nyt-cheltenham-small, georgia, 'times new roman';
+  font-family: nyt-cheltenham-small, georgia, "times new roman";
 }
 
 p.title-editors-pick {
@@ -305,7 +305,7 @@ aside img:hover {
 a.article-link {
   color: var(--secondary-color);
   text-decoration: underline;
-  font-family: nyt-imperial, georgia, 'times new roman', times, serif;
+  font-family: nyt-imperial, georgia, "times new roman", times, serif;
   font-size: 1.25rem;
 }
 
@@ -318,10 +318,10 @@ a.article-link:hover {
   grid-template-columns: 1fr 2fr 1fr;
   grid-template-rows: repeat(4, 40px);
   grid-template-areas:
-    '. . .'
-    '. subscribe-remider-text .'
-    '. subscribe-remider-link .'
-    '. . .';
+    ". . ."
+    ". subscribe-remider-text ."
+    ". subscribe-remider-link ."
+    ". . .";
   font-weight: 700;
 }
 
@@ -336,7 +336,7 @@ a.article-link:hover {
   width: 100px;
   background: #ddd;
   border-right: 1px white;
-  content: '';
+  content: "";
   margin: 0 auto;
   margin-bottom: 1rem;
 }
@@ -352,7 +352,7 @@ a.article-link:hover {
   width: 100px;
   background: #ddd;
   border-right: 1px white;
-  content: '';
+  content: "";
   margin: 0 auto;
   margin-top: 1rem;
 }
@@ -371,15 +371,15 @@ a.article-link:hover {
   grid-gap: 0 14px;
   height: 576px;
   width: 945px;
-  background: url('https://static01.nyt.com/newsgraphics/2014/03/18/theory-of-inflation/1ebaa1b972edda0f407fbaa0e010f6b50fb6792e/inflation-945.png')
+  background: url("https://static01.nyt.com/newsgraphics/2014/03/18/theory-of-inflation/1ebaa1b972edda0f407fbaa0e010f6b50fb6792e/inflation-945.png")
     no-repeat center center/cover;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1.1fr 1fr 1.1fr;
   grid-template-areas:
-    '. . . .'
-    'div1 div2 div3 div4 '
-    '. . . .'
-    'div5 div6 div7 div8 ';
+    ". . . ."
+    "div1 div2 div3 div4 "
+    ". . . ."
+    "div5 div6 div7 div8 ";
 }
 
 .schema h2 {
@@ -443,7 +443,7 @@ a.article-link:hover {
 
 .schema-footer:before {
   width: 60px;
-  content: ' ';
+  content: " ";
   display: block;
   height: 1px;
   margin: 13px 13px 13px 0;
@@ -491,7 +491,7 @@ a.article-link:hover {
   margin-right: 0.4375rem;
   line-height: 1.25rem;
   color: var(--dark-gray);
-  font-family: nyt-imperial, georgia, 'times new roman', times, serif;
+  font-family: nyt-imperial, georgia, "times new roman", times, serif;
 }
 
 .article-footer {
@@ -528,16 +528,15 @@ a.article-link:hover {
 }
 
 .suggestions {
-  width: 1291px;
-  height: 1066;
+  height: auto;
   margin: 45px 114px 0;
   display: grid;
   grid-template-columns: repeat(3, 272px) 318px;
   grid-template-rows: minmax(40px, auto) repeat(2, 1fr) minmax(40px, auto) 1fr;
   grid-auto-flow: row;
   grid-gap: 1rem;
+  padding-bottom: 20px;
 }
-
 
 .more-readings-title-1 {
   grid-column: 1/-2;
@@ -560,7 +559,7 @@ a.article-link:hover {
   grid-row: 4/5;
   border-top: 1px solid #000;
   padding-top: 1rem;
-  color:var(--darkest-gray);
+  color: var(--darkest-gray);
   font-weight: 700;
 }
 
@@ -589,7 +588,7 @@ a.more-readings-title-2:hover {
 
 .most-popular > * {
   display: block;
-  font-family: nyt-cheltenham, georgia, 'times new roman', times, serif;
+  font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
   font-size: 1.1875rem;
   line-height: 1.4375rem;
   font-weight: 500;
@@ -613,11 +612,21 @@ a.more-readings-title-2:hover {
 }
 
 h2.more-readings-title {
+  font-size: 1rem;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
   color: var(--darkest-gray);
   font-weight: 600;
 }
+
+footer {
+  border-top: double 3px #ddd;
+  padding-top: 1rem;
+  margin-top: 2rem;
+  width: 1134px;
+  margin: 0 auto;
+}
+
 .footer-nav {
-  width: 1291px;
   margin: 0 auto;
 }
 
@@ -633,6 +642,14 @@ h2.more-readings-title {
 .footer-links.left-border {
   padding-left: 10px;
   border-left: solid rgb(226, 226, 226) 1px;
+}
+
+.footer-nav-right a {
+  color: rgb(86, 123, 149);
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  font-size: 0.6875rem;
+  line-height: 0.6875rem;
+  text-decoration: none;
 }
 
 .footer-links p {
@@ -673,7 +690,7 @@ a.footer-links-bold {
   padding: 0.5625rem 0;
   font-family: nyt-franklin, helvetica, arial, sans-serif;
   font-size: 0.6875rem;
-  margin: 0 auto;
+  margin: 10px auto 0;
   justify-content: center;
   border-top: solid rgb(226, 226, 226) 1px;
 }
@@ -686,16 +703,15 @@ a.footer-links-bold {
   text-decoration: underline;
 }
 
-
 .suggestions-links {
-  font-family: nyt-cheltenham, georgia, 'times new roman', times, serif;
+  font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
   font-size: 1.1875rem;
   line-height: 1.4375rem;
   font-weight: 500;
   padding: 0.3rem 0rem;
   color: var(--black-color);
   padding-bottom: 0;
-  margin-bottom: .3rem;
+  margin-bottom: 0.3rem;
 }
 .suggestions-links:hover {
   color: rgb(102, 102, 102);
@@ -704,6 +720,5 @@ a.footer-links-bold {
 .suggestions-date {
   font-family: nyt-franklin, helvetica, arial, sans-serif;
   font-size: 0.75rem;
-  color:var(--dark-gray);
-  
+  color: var(--dark-gray);
 }
