@@ -73,6 +73,8 @@ nav {
   top: 0;
   z-index: 999;
   width: 100%;
+  border-bottom: solid rgb(226, 226, 226) 1px;
+
 }
 
 nav .left a {
@@ -84,6 +86,13 @@ nav .left a {
 nav .left i {
   padding: 0.5rem 0.5625rem 0.5625rem 0.5625rem;
   margin: 0 0.5rem 0 0;
+}
+nav .left i:hover, .middle .logo {
+  cursor: pointer;
+}
+nav .left a:hover {
+  cursor: pointer;
+  text-decoration: underline;
 }
 
 nav .right {
