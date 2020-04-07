@@ -123,7 +123,7 @@ nav .left i {
   font-style: italic;
   font-weight: 700;
   color: #121212;
-  font-family: nyt-cheltenham, georgia, 'times new roman', times, serif;
+  font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
 }
 
 .article-image {
@@ -201,7 +201,7 @@ nav .left i {
 .second-part {
   display: grid;
   grid-template-columns: 1fr 600px 1fr;
-  grid-template-areas: '. full-container editors-pick';
+  grid-template-areas: ". full-container editors-pick";
 }
 
 .full-container {
@@ -248,10 +248,10 @@ aside img {
   grid-template-columns: 1fr 2fr 1fr;
   grid-template-rows: repeat(4, 40px);
   grid-template-areas:
-    '. . .'
-    '. subscribe-remider-text .'
-    '. subscribe-remider-link .'
-    '. . .';
+    ". . ."
+    ". subscribe-remider-text ."
+    ". subscribe-remider-link ."
+    ". . .";
   font-weight: 700;
 }
 
@@ -266,7 +266,7 @@ aside img {
   width: 100px;
   background: #ddd;
   border-right: 1px white;
-  content: '';
+  content: "";
   margin: 0 auto;
   margin-bottom: 1rem;
 }
@@ -282,7 +282,7 @@ aside img {
   width: 100px;
   background: #ddd;
   border-right: 1px white;
-  content: '';
+  content: "";
   margin: 0 auto;
   margin-top: 1rem;
 }
@@ -301,15 +301,15 @@ aside img {
   grid-gap: 0 14px;
   height: 576px;
   width: 945px;
-  background: url('https://static01.nyt.com/newsgraphics/2014/03/18/theory-of-inflation/1ebaa1b972edda0f407fbaa0e010f6b50fb6792e/inflation-945.png')
+  background: url("https://static01.nyt.com/newsgraphics/2014/03/18/theory-of-inflation/1ebaa1b972edda0f407fbaa0e010f6b50fb6792e/inflation-945.png")
     no-repeat center center/cover;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1.1fr 1fr 1.1fr;
   grid-template-areas:
-    '. . . .'
-    'div1 div2 div3 div4 '
-    '. . . .'
-    'div5 div6 div7 div8 ';
+    ". . . ."
+    "div1 div2 div3 div4 "
+    ". . . ."
+    "div5 div6 div7 div8 ";
 }
 
 .schema h2 {
@@ -373,7 +373,7 @@ aside img {
 
 .schema-footer:before {
   width: 60px;
-  content: ' ';
+  content: " ";
   display: block;
   height: 1px;
   margin: 13px 13px 13px 0;
@@ -390,7 +390,7 @@ aside img {
 .fourth-part a {
   color: var(--secondary-color);
   text-decoration: underline;
-  font-family: nyt-imperial, georgia, 'times new roman', times, serif;
+  font-family: nyt-imperial, georgia, "times new roman", times, serif;
   font-size: 1.25rem;
 }
 
@@ -461,7 +461,6 @@ aside img {
   width: 1291px;
   height: 1066;
   margin: 45px 114px 0;
-
   display: grid;
   grid-template-columns: repeat(3, 272px) 318px;
   grid-template-rows: minmax(40px, auto) repeat(2, 1fr) minmax(40px, auto) 1fr;
@@ -508,7 +507,7 @@ aside img {
 
 .most-popular > * {
   display: block;
-  font-family: nyt-cheltenham, georgia, 'times new roman', times, serif;
+  font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
   font-size: 1.1875rem;
   line-height: 1.4375rem;
   font-weight: 500;
@@ -529,4 +528,55 @@ aside img {
   height: 100%;
   display: block;
   margin-bottom: 5px;
+}
+
+.footer-nav {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.footer-top {
+  height: 40px;
+}
+
+.footer-nav-left {
+  height: 300px;
+  width: 300px;
+}
+
+.footer-links.left-border {
+  padding-left: 10px;
+  border-left: solid rgb(226, 226, 226) 1px;
+}
+
+.footer-links p {
+  font-size: 0.875rem;
+  font-weight: 700;
+}
+
+.footer-links svg {
+  height: 13px;
+  width: 13px;
+}
+
+.footer-links a {
+  display: block;
+  color: var(--black-color);
+  font-size: 0.875rem;
+  font-weight: 500;
+  height: 23px;
+  line-height: 16px;
+  text-transform: capitalize;
+}
+
+a.footer-links-bold {
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 15px;
+  height: 25px;
+  color: var(--black-color);
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
 }
