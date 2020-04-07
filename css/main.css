@@ -538,9 +538,12 @@ a.article-link:hover {
   grid-gap: 1rem;
 }
 
+
 .more-readings-title-1 {
   grid-column: 1/-2;
   color: var(--black-color);
+  border-top: 1px solid var(--dark-gray);
+  padding: 0.9375rem 0rem;
 }
 
 .more-readings-title-1 a {
@@ -569,6 +572,7 @@ a.article-link:hover {
 .most-popular {
   grid-column: 4/5;
   grid-row: 1/-1;
+  border-top: 1px solid var(--dark-gray);
 }
 .most-popular h2 {
   grid-column: 4/5;
@@ -582,7 +586,7 @@ a.article-link:hover {
   line-height: 1.4375rem;
   font-weight: 500;
   border-bottom: 1px solid #ddd;
-  padding: 15px 0px;
+  padding: 0.9375rem 0rem;
   color: var(--black-color);
 }
 .most-popular a:hover {
@@ -600,6 +604,10 @@ a.article-link:hover {
   margin-bottom: 5px;
 }
 
+h2.more-readings-title {
+  color: var(--darkest-gray);
+  font-weight: 600;
+}
 .footer-nav {
   width: 1291px;
   margin: 0 auto;
