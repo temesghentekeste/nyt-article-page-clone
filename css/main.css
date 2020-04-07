@@ -244,8 +244,8 @@ nav .right {
   grid-area: editors-pick;
   overflow: hidden;
   display: grid;
-  width: 410px;
-  margin-left: 100px;
+  width: auto;
+  margin-left: 50px;
   grid-auto-flow: row;
   grid-template-columns: 75px 125px;
   grid-template-rows: 30px 85px 85px 85px;
