@@ -558,6 +558,14 @@ a.article-link:hover {
 .more-readings-title-2 {
   grid-column: 1/-2;
   grid-row: 4/5;
+  border-top: 1px solid #000;
+  padding-top: 1rem;
+  color:var(--darkest-gray);
+  font-weight: 700;
+}
+
+a.more-readings-title-2:hover {
+  text-decoration: underline;
 }
 
 .suggestions figcaption {
@@ -676,4 +684,26 @@ a.footer-links-bold {
 }
 .footer-copyright a:hover {
   text-decoration: underline;
+}
+
+
+.suggestions-links {
+  font-family: nyt-cheltenham, georgia, 'times new roman', times, serif;
+  font-size: 1.1875rem;
+  line-height: 1.4375rem;
+  font-weight: 500;
+  padding: 0.3rem 0rem;
+  color: var(--black-color);
+  padding-bottom: 0;
+  margin-bottom: .3rem;
+}
+.suggestions-links:hover {
+  color: rgb(102, 102, 102);
+}
+
+.suggestions-date {
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  font-size: 0.75rem;
+  color:var(--dark-gray);
+  
 }
