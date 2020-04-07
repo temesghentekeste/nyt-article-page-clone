@@ -494,11 +494,6 @@ a.article-link:hover {
   font-family: nyt-imperial, georgia, 'times new roman', times, serif;
 }
 
-.video p span {
-  font-size: 0.8125rem;
-  color: var(--light-gray);
-}
-
 .article-footer {
   font-family: nyt-franklin, helvetica, arial, sans-serif;
   font-size: 0.75rem;
