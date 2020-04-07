@@ -68,11 +68,17 @@ a:hover {
 }
 
 .subtitle {
-  font-family: nyt-imperial, georgia, "times new roman", times, serif;
+  font-family: nyt-imperial, georgia, 'times new roman', times, serif;
   font-weight: 700;
   color: var(--darkest-gray);
   font-size: 1.25rem;
   margin: 1.5rem 0;
+}
+
+.image-source {
+  font-size: 0.8125rem;
+  color: var(--light-gray);
+  letter-spacing: 0.01em;
 }
 
 nav {
@@ -146,7 +152,7 @@ nav .right {
   font-style: italic;
   font-weight: 700;
   color: #121212;
-  font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
+  font-family: nyt-cheltenham, georgia, 'times new roman', times, serif;
 }
 
 .article-image {
@@ -167,7 +173,7 @@ nav .right {
   font-size: 0.9375rem;
   color: var(--dark-gray);
   padding-right: 25%;
-  font-family: nyt-imperial, georgia, "times new roman", times, serif;
+  font-family: nyt-imperial, georgia, 'times new roman', times, serif;
 }
 
 .article-image figcaption span {
@@ -241,7 +247,7 @@ nav .right {
 .second-part {
   display: grid;
   grid-template-columns: 1fr 600px 1fr;
-  grid-template-areas: ". full-container editors-pick";
+  grid-template-areas: '. full-container editors-pick';
 }
 
 .full-container {
@@ -269,7 +275,7 @@ nav .right {
 }
 .editors-pick a {
   color: rgb(51, 51, 51);
-  font-family: nyt-cheltenham-small, georgia, "times new roman";
+  font-family: nyt-cheltenham-small, georgia, 'times new roman';
 }
 
 p.title-editors-pick {
@@ -299,7 +305,7 @@ aside img:hover {
 a.article-link {
   color: var(--secondary-color);
   text-decoration: underline;
-  font-family: nyt-imperial, georgia, "times new roman", times, serif;
+  font-family: nyt-imperial, georgia, 'times new roman', times, serif;
   font-size: 1.25rem;
 }
 
@@ -312,10 +318,10 @@ a.article-link:hover {
   grid-template-columns: 1fr 2fr 1fr;
   grid-template-rows: repeat(4, 40px);
   grid-template-areas:
-    ". . ."
-    ". subscribe-remider-text ."
-    ". subscribe-remider-link ."
-    ". . .";
+    '. . .'
+    '. subscribe-remider-text .'
+    '. subscribe-remider-link .'
+    '. . .';
   font-weight: 700;
 }
 
@@ -330,7 +336,7 @@ a.article-link:hover {
   width: 100px;
   background: #ddd;
   border-right: 1px white;
-  content: "";
+  content: '';
   margin: 0 auto;
   margin-bottom: 1rem;
 }
@@ -346,7 +352,7 @@ a.article-link:hover {
   width: 100px;
   background: #ddd;
   border-right: 1px white;
-  content: "";
+  content: '';
   margin: 0 auto;
   margin-top: 1rem;
 }
@@ -365,15 +371,15 @@ a.article-link:hover {
   grid-gap: 0 14px;
   height: 576px;
   width: 945px;
-  background: url("https://static01.nyt.com/newsgraphics/2014/03/18/theory-of-inflation/1ebaa1b972edda0f407fbaa0e010f6b50fb6792e/inflation-945.png")
+  background: url('https://static01.nyt.com/newsgraphics/2014/03/18/theory-of-inflation/1ebaa1b972edda0f407fbaa0e010f6b50fb6792e/inflation-945.png')
     no-repeat center center/cover;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1.1fr 1fr 1.1fr;
   grid-template-areas:
-    ". . . ."
-    "div1 div2 div3 div4 "
-    ". . . ."
-    "div5 div6 div7 div8 ";
+    '. . . .'
+    'div1 div2 div3 div4 '
+    '. . . .'
+    'div5 div6 div7 div8 ';
 }
 
 .schema h2 {
@@ -437,7 +443,7 @@ a.article-link:hover {
 
 .schema-footer:before {
   width: 60px;
-  content: " ";
+  content: ' ';
   display: block;
   height: 1px;
   margin: 13px 13px 13px 0;
@@ -473,13 +479,19 @@ a.article-link:hover {
   height: 100%;
 }
 
+.fourth-part-image .caption {
+  font-size: 0.9375rem;
+  line-height: 1.25rem;
+  margin-right: 2.2rem;
+}
+
 .video p {
   font-size: 0.9375rem;
   margin-top: 0.2rem;
   margin-right: 0.4375rem;
   line-height: 1.25rem;
   color: var(--dark-gray);
-  font-family: nyt-imperial, georgia, "times new roman", times, serif;
+  font-family: nyt-imperial, georgia, 'times new roman', times, serif;
 }
 
 .video p span {
@@ -570,7 +582,7 @@ a.article-link:hover {
 
 .most-popular > * {
   display: block;
-  font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
+  font-family: nyt-cheltenham, georgia, 'times new roman', times, serif;
   font-size: 1.1875rem;
   line-height: 1.4375rem;
   font-weight: 500;
