@@ -68,7 +68,7 @@ a:hover {
 nav {
   background-color: var(--white-color);
   padding: 0.25rem 0.94rem 0.125rem;
-  height: 2.625rem;
+  height: 48px;
   position: fixed;
   top: 0;
   z-index: 999;
@@ -84,6 +84,10 @@ nav .left a {
 nav .left i {
   padding: 0.5rem 0.5625rem 0.5625rem 0.5625rem;
   margin: 0 0.5rem 0 0;
+}
+
+nav .right {
+  margin-right: 1.2rem;
 }
 
 .logo {
