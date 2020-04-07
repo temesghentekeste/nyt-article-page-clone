@@ -177,6 +177,13 @@ nav .right {
 
 .article-author a {
   color: var(--darkest-gray);
+  text-decoration: underline;
+  text-decoration-color: #ccc;
+  text-decoration-thickness: 1px;
+}
+
+.article-author a:hover {
+  text-decoration: none;
 }
 
 .article-social {
@@ -198,24 +205,27 @@ nav .right {
   font-size: 80%;
 }
 
-.social-links .fa-bookmark {
-  font-size: 200%;
-  background-color: transparent;
-  color: var(--dark-gray);
+.social-links svg {
+  position: relative;
+  top: 10px;
 }
 
 .social-links .fa-comment-o {
-  font-size: 200%;
+  font-size: 185%;
   background-color: transparent;
   position: relative;
+  top: 7px;
+  color: var(--light-gray);
+  margin-right: 10px;
+  -webkit-text-stroke: 2px white;
 }
 
 .fa-comment-o span {
   position: absolute;
-  font-size: 0.7rem;
+  font-size: 0.6rem;
   left: 14px;
-  top: 16px;
-  color: #999;
+  top: 14px;
+  -webkit-text-stroke: 0.5px var(--black-color);
 }
 
 .second-part {
