@@ -580,3 +580,24 @@ a.footer-links-bold {
 .footer-links a:hover {
   text-decoration: underline;
 }
+
+.footer-copyright {
+  width:1200px;
+  height: 66px;
+  padding: 0.5625rem 0;
+  font-family: nyt-franklin,helvetica,arial,sans-serif;
+  font-size: .6875rem;
+  margin:0 auto;
+  justify-content: center;
+  border-top: solid rgb(226, 226, 226) 1px;
+}
+
+.footer-copyright a {
+  color:var(--dark-gray);
+  padding: 0 0.5625rem;
+ 
+}
+.footer-copyright a:hover {
+  text-decoration: underline;
+ 
+}
