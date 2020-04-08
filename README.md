@@ -1,4 +1,4 @@
-# Mint.com Signup Clone
+# New York Times Article Page Clone
 
 > This project consists of building an HTML document that matches the appearance of a New York Times article page. It was developed as a requirement for Microverse HTML and CSS course.
 
