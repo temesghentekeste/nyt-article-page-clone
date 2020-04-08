@@ -339,8 +339,7 @@ a.article-link:hover {
   grid-gap: 0 14px;
   height: 576px;
   width: 945px;
-  background: url("https://static01.nyt.com/newsgraphics/2014/03/18/theory-of-inflation/1ebaa1b972edda0f407fbaa0e010f6b50fb6792e/inflation-945.png")
-    no-repeat center center/cover;
+  background: url("https://static01.nyt.com/newsgraphics/2014/03/18/theory-of-inflation/1ebaa1b972edda0f407fbaa0e010f6b50fb6792e/inflation-945.png") no-repeat center center/cover;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1.1fr 1fr 1.1fr;
   grid-template-areas:
