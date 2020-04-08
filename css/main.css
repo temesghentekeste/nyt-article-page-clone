@@ -231,7 +231,7 @@ nav .left i {
   overflow: hidden;
   display: grid;
   width: auto;
-  margin-left: 50px;
+  margin: auto 0 auto 10px;
   grid-auto-flow: row;
   grid-template-columns: 75px 125px;
   grid-template-rows: 30px 85px 85px 85px;
