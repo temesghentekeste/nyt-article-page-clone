@@ -13,6 +13,11 @@ In this project, we made the use of semantic html, utility classes and variables
 - CSS
 - Fontawesome
 
+## IDE and Tools
+
+ - Visual Studio Code
+ - Linter
+
 ## Live Demo
 
 [Live Demo Link](https://rawcdn.githack.com/temesghentekeste/nyt-article-page-clone/ed54084431e9eded27f84fd2b6c0381a27e98664/index.html)
